@@ -21,8 +21,7 @@ This project is based on the original [Streamify Video Calls](https://github.com
 - Backend: Node.js, Express
 - Styling: CSS
 
-## 📸 Screenshots
-*(Add screenshots here if you want)*
+
 
 ## 🙋‍♂️ Developer
 Made with ❤️ by [Jishnu Narikkotan](https://github.com/jishnunarikkotan)
