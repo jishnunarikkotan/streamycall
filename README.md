@@ -1,55 +1,35 @@
-<h1 align="center">✨ Fullstack Chat & Video Calling App ✨</h1>
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+# StreamyCall – One-on-One Video Calling App
 
-Highlights:
+**StreamyCall** is a video chat application built using WebRTC, React, and Node.js.  
+This project is based on the original [Streamify Video Calls](https://github.com/burakorkmez/streamify-video-calls) by [burakorkmez]. I’ve customized and extended it for learning purposes.
 
-- 🌐 Real-time Messaging with Typing Indicators & Reactions
-- 📹 1-on-1 and Group Video Calls with Screen Sharing & Recording
-- 🔐 JWT Authentication & Protected Routes
-- 🌍 Language Exchange Platform with 32 Unique UI Themes
-- ⚡ Tech Stack: React + Express + MongoDB + TailwindCSS + TanStack Query
-- 🧠 Global State Management with Zustand
-- 🚨 Error Handling (Frontend & Backend)
-- 🚀 Free Deployment
-- 🎯 Built with Scalable Technologies like Stream
-- ⏳ And much more!
+## 🔧 Features
+- Secure, one-on-one video calls
+- Unique room generation via URL
+- Real-time WebRTC peer connections
+- Clean and modern UI (customized)
 
----
+## 🛠 Modifications Made
+- Changed app name and UI branding to **StreamyCall**
+- Updated title, headings, and basic layout styles
+- Added footer with developer credits
+- Planned further UI enhancements and feature additions
 
-## 🧪 .env Setup
+## 🚀 Tech Stack
+- Frontend: React, WebRTC, Socket.io
+- Backend: Node.js, Express
+- Styling: CSS
 
-### Backend (`/backend`)
+## 📸 Screenshots
+*(Add screenshots here if you want)*
 
-```
-PORT=5001
-MONGO_URI=your_mongo_uri
-STEAM_API_KEY=your_steam_api_key
-STEAM_API_SECRET=your_steam_api_secret
-JWT_SECRET_KEY=your_jwt_secret
-NODE_ENV=development
-```
-
-### Frontend (`/frontend`)
-
-```
-VITE_STREAM_API_KEY=your_stream_api_key
-```
+## 🙋‍♂️ Developer
+Made with ❤️ by [Jishnu Narikkotan](https://github.com/jishnunarikkotan)
 
 ---
 
-## 🔧 Run the Backend
+## 📝 License
+MIT – Refer to the original license from the [Streamify repo](https://github.com/burakorkmez/streamify-video-calls)
 
-```bash
-cd backend
-npm install
-npm run dev
-```
 
-## 💻 Run the Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
